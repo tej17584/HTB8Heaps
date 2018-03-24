@@ -31,7 +31,7 @@ public class HTB8Heaps {
         
         VectorHeap<Paciente> vectorheap = new VectorHeap<>();
         
-        System.out.println("Bienvenido Doc\nIngrese el numero de implementacion que desea utilizar \n1.HeapVector\n2.Framework Priority Queue\n3.Salir\n");
+        System.out.println("Bienvenido Doc\nIngrese el numero de implementacion que desea utilizar \n1.HeapVector\n2.Java Collection Framework con Priority Queue\n3.Salir\n");
         decision = teclado2.nextInt();
         
         while(decision != 3){
@@ -91,7 +91,7 @@ public class HTB8Heaps {
                 //    System.out.println(vectorheap.remove().toString());
                 //}
                 System.out.println("\n");
-                System.out.println("Si desea utilizar otra implementacion ingrese el numero de la opcion correspondiente\n1.HeapVector\n2.Framework Priority Queue\n3.Salir\n");
+                System.out.println("Si desea utilizar otra implementacion ingrese el numero de la opcion correspondiente\n1.HeapVector\n2.Java Collection Framework con Priority Queue\n3.Salir\n");
                 decision = teclado2.nextInt();
             }else if(decision == 2){
                 System.out.println("Ingrese el nombre del archivo .txt de los pacientes a atender (Ej. pacientes.txt): ");
@@ -149,11 +149,11 @@ public class HTB8Heaps {
                 //    System.out.println(vectorheap.remove().toString());
                 //}
                 System.out.println("\n");
-                System.out.println("Si desea utilizar otra implementacion ingrese el numero de la opcion correspondiente\n1.HeapVector\n2.Framework Priority Queue\n3.Salir\n");
+                System.out.println("Si desea utilizar otra implementacion ingrese el numero de la opcion correspondiente\n1.HeapVector\n2.Java Collection Framework con Priority Queue\n3.Salir\n");
                 decision = teclado2.nextInt();
             }else{
                 System.out.println("La opcion no es valida");
-                System.out.println("Ingrese el numero de implementacion que desea utilizar \n1.HeapVector\n2.Framework Priority Queue\n3.Salir\n");
+                System.out.println("Ingrese el numero de implementacion que desea utilizar \n1.HeapVector\n2.Java Collection Framework con Priority Queue\n3.Salir\n");
                 decision = teclado2.nextInt();
             }
         }
